@@ -1,0 +1,177 @@
+/* Style for Yet Another News Site */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+h1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1em;
+    padding: .3em;
+    text-align: left;
+    background: #EDEDED;
+    border-bottom: 1px solid #000;
+    cursor: default;
+}
+
+    h1 span{
+        color: #555;
+    }
+    
+    h1 a{
+        font-variant: small-caps;
+        margin-left: .5em;
+    }
+
+input[type="text"].big, input[type="password"], textarea.big{
+    font-size: 1.6em;
+    padding: .5em;
+    margin: .2em;
+}
+
+input[type="submit"]{
+    font-size: 2em;
+    margin: .2em;
+}
+
+#content{
+    margin-top: 10%;
+    width: 100%;
+}
+
+#box{
+    width: 70%;
+    margin: auto;
+    background: #EFEFEF;
+    padding: .3em;
+}
+
+    #box h2{
+        margin: 0;
+    }
+
+#stream{
+    float: left;
+    width: 60%;
+    padding: 2em;
+    background: #EDEDED;
+}
+    
+    #stream h2{
+        margin: 0;
+        padding: .3em;
+        text-transform: uppercase;
+    }
+    
+        /*#stream h2 a:link{
+            color: #000;
+            text-decoration: underline;
+        }
+        
+        #stream h2 a:visited{
+            color: #333;
+            text-decoration: underline;
+        }
+        
+        #stream h2 a:active, #stream h2 a:hover, #stream h2 a:focus{
+            color: #666;
+            text-decoration: none;
+        }*/
+    
+    #stream .post{
+        background: #FFF;
+        padding: 1em;
+        margin-bottom: 2em;
+    }
+    
+        #stream .post .readmore {
+            font-variant: small-caps;
+        }
+        
+        #stream .post .url {
+            font-size: 1.3em;
+            text-align: center;
+        }
+    
+        #stream .post .meta{
+            font-size: 0.8em;
+            letter-spacing: 0.1em;
+            color: #333;  
+            margin: 0;
+            text-align: right;
+        }
+            
+            #stream .post .meta strong{
+                font-size: 1.1em;
+            }
+        
+            #stream .post .meta span{
+                color: #666;
+            }
+    
+    #stream .admin{
+        background: #333;
+        color: #CCC;
+        padding: .3em;
+        text-align: right;
+        margin: 0;
+    }
+    
+        #stream a{
+            padding-left: .4em;
+        }
+    
+        #stream .admin a:link, #stream .admin a:visited{
+            color: #FFF;
+            text-decoration: underline;
+        }
+        
+        #stream .admin a:focus, #stream .admin a:active, #stream .admin a:hover{
+            color: #EDEDED;
+            text-decoration: none;
+        }
+
+#sidebar{
+    float: right;
+    width: 28%;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    padding: 1em;
+    background: #ECECEC;
+    position: absolute;
+    right: 0;
+}
+
+    #sidebar .big{
+        font-size: 1.2em;
+    }
+
+    #sidebar .notice{
+        width: 75%;
+        margin: auto;
+        margin-bottom: 1.6em;
+        background: #333;
+        color: #FAFAFA;
+        padding: 1.2em;
+        text-align: center;
+    }
+
+.comment span{
+    color: #666;
+}
+
+.comment h2{
+    margin-bottom: 0;
+}
+
+.comment p{
+    margin-top: 0;
+    margin-bottom: 1em;
+}
